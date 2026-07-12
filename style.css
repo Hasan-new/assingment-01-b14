@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f9f9f9;
+}
+.navbar-parent{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 18px;
+}
+
+.banner-parent{
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 786px;
+}
+
+.hero h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+/* Common-Style */
+.common-style{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.common-btn{
+    background-color: #2563EB;
+    color: white;
+    padding:  20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.speaker-title, .speaker-name, .speaker-designation{
+    padding-left: 20px;
+}
+.speaker-title{
+    color:#2563EB;
+    font-size: 12px;
+    font-weight: semi-bold;
+}
+/* Common style end  */
+
+.hero h1, .conferance-detail{
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero{
+    text-align: center;
+}
+
+.hero-register-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Meet the Speakers section start   */
+    .meet-speaker-parent{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .meet-the-speaker-title{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .meet-the-speaker{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        /* gap: 10px; */
+    }
+/* CSS Test */
+
+.speaker-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.speaker-1,.speaker-2,.speaker-3,.speaker-4{
+    border: 1px solid rgb(250, 219, 219);
+    border-radius: 10px;
+    margin: 10px;
+}
+.speader-designation{
+    font-size: 14px;
+    font-weight: regular;
+    color: #575757;
+}
+.cart-dead-line{
+    text-align: center;
+    font-size: 14px;
+    color:#575757;
+}
