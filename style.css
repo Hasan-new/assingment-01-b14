@@ -85,8 +85,7 @@ nav ul li a{
 
 /* Meet the Speakers section start   */
     .meet-speaker-parent{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 50px;
     }
     .meet-the-speaker-title{
         text-align: center;
@@ -116,8 +115,17 @@ nav ul li a{
     font-weight: regular;
     color: #575757;
 }
+
+
+/* .cart-parent{
+} */
 .cart-dead-line{
     text-align: center;
     font-size: 14px;
     color:#575757;
+}
+
+.cart-content{
+  list-style-type: disc;
+  margin-bottom: 20px;
 }
