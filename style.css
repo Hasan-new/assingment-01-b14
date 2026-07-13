@@ -4,16 +4,17 @@
 }
 body {
     background-color: #f9f9f9;
+    /* max-width: 1200px; */
 }
 .navbar-parent{
+    margin: 0 auto;
     background-color: #FFFFFF;
     padding: 20px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    
-    
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -29,24 +30,27 @@ nav ul li a{
     font-size: 18px;
 }
 
+
 .banner-parent{
     background-image: url('./assets/banner.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
     height: 786px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.hero h1{
-    font-size: 60px;
-    color: #FFFFFF;
-    padding: 20px;
-}
+
 /* Common-Style */
 .common-style{
-    max-width: 1280px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .common-btn{
     background-color: #2563EB;
@@ -55,17 +59,20 @@ nav ul li a{
     border-radius: 10px;
     cursor: pointer;
 }
-.speaker-title, .speaker-name, .speaker-designation{
-    padding-left: 20px;
-}
+
 .speaker-title{
-    color:#2563EB;
-    font-size: 12px;
-    font-weight: semi-bold;
+    margin-top:20px;
+    display:block;
 }
 /* Common style end  */
 
-.hero h1, .conferance-detail{
+.hero-content{
+    font-size: 60px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.conferance-detail{
     text-align: center;
     color: #FFFFFF;
     max-width: 600px;
@@ -97,28 +104,42 @@ nav ul li a{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
-        /* gap: 10px; */
+        gap: 10px;
     }
 /* CSS Test */
+.speaker{
+    width:100%;
+    display:block;
+    border-radius:10px 10px 0 0;
+}
 
 .speaker-name{
     font-size: 20px;
     font-weight: 700;
+    margin:10px 0;
 }
 .speaker-1,.speaker-2,.speaker-3,.speaker-4{
-    border: 1px solid rgb(250, 219, 219);
-    border-radius: 10px;
-    margin: 10px;
+    border:1px solid #eee;
+    border-radius:10px;
+    overflow:hidden;
 }
-.speader-designation{
+.speaker-designation{
     font-size: 14px;
     font-weight: regular;
     color: #575757;
+    display:block;
+    margin-bottom:20px;
+}
+
+.speaker-title, .speaker-name, .speaker-designation{
+    padding:0 20px;
 }
 
 
-/* .cart-parent{
-} */
+/* Cart style */
+.cart-parent{
+    margin-top: 50px;
+}
 .cart-dead-line{
     text-align: center;
     font-size: 14px;
@@ -128,4 +149,30 @@ nav ul li a{
 .cart-content{
   list-style-type: disc;
   margin-bottom: 20px;
+}
+.cart-container{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 100px;
+    gap: 10px;
+}
+
+
+.cart-detail{
+    display: flex;
+    flex-direction: column;
+    min-width:280px;
+    max-width:350px;
+    padding:30px;
+    border: 2px solid rgb(245, 209, 209);
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.cart-detail p{
+    color: #575757;
+}
+.cart-hr{
+    width: 70%;
+     margin: 20px auto;
 }

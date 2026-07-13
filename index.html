@@ -9,7 +9,7 @@
 <body>
     <!-- Navbar start -->
     <section class="navbar-parent">
-        <nav>
+        <nav class="common-style" >
         <img src="./assets/logo.png" alt="Logo">
         <ul>
             <li><a href="#">Speakers</a></li>
@@ -25,9 +25,9 @@
 
     <!-- Bannaer/Hero section start -->
 
-    <section class="banner-parent">
+    <section class="banner-parent common-style">
         <div class="hero">
-            <h1>Code. Connect. Create</h1>
+            <h1 class="hero-content">Code. Connect. Create</h1>
             <p class="conferance-detail">Conference 2026. Three inspiring days of innovative ideas, expert-led sessions, interactive workshops, and valuable networking opportunities. Discover the latest trends, learn from industry leaders, and connect with professionals who share your passion for shaping the future. Every moment is designed to inspire, educate, and empower.</p>
         </div>
         <button class="hero-register-btn common-btn">Register Now</button>
@@ -43,46 +43,42 @@
         <div class="meet-the-speaker container">
             <div class="speaker-1">
                 <img class="speaker" src="./assets/andrej.png" alt="Speaker 1">
-                <br>
+                
                 <small class="speaker-title">AI / ML</small> 
-                <br>
-                <br>
+                
                 <h4 class="speaker-name">Andrej Karpathy</h4>
-                <br>
+                
                 <small class="speaker-designation">Pretraining team, Anthropic</small>   
             </div>
 
 
              <div class="speaker-2">
                 <img class="speaker" src="./assets/demis.png" alt="Speaker 2">
-                <br>
+              
                 <small class="speaker-title">CLOUD & DEVOPS / MLS</small>
-                <br>
-                <br>
+                
                 <h4 class="speaker-name">Demis Hassabis</h4>
-                <br>
+             
                 <small class="speaker-designation">Co-Founder and CEO, Google DeepMind</small>
                 
             </div>
             <div class="speaker-3">
                 <img class="speaker" src="./assets/gary.png" alt="Speaker 3">
-                <br>
+             
                 <small class="speaker-title">Frontend</small>
-                <br>
-                <br>
+                
                 <h4 class="speaker-name">Gary Marcus</h4>
-                <br>
+                
                 <small class="speaker-designation">Staff Engineer, Vercel</small>
                 
             </div>
             <div class="speaker-4">
                 <img class="speaker" src="./assets/mustafa.png" alt="Speaker 4">
-                <br>
+             
                 <small class="speaker-title">Security</small>
-                <br>
-                <br>
+                
                 <h4 class="speaker-name">Mustafa Suleyman</h4>
-                <br>
+              
                 <small class="speaker-designation">CEO of Microsoft AI</small>
             </div>
 
@@ -93,7 +89,21 @@
        <main class="cart-parent common-style">
             <h2 class="meet-the-speaker-title">Secure Your Spot</h2>
             <p class="cart-dead-line">Early-bird pricing ends August 15, 2026.</p>
-            <div class="cart-detail">
+            <div class="cart-container">
+                <div class="cart-detail">
+                    <p>Standard</p>
+                    <h1>$399</h1>
+                    <p>Per person</p>
+                    <hr class="cart-hr">
+
+                <ul class="cart-content">
+                    <li>Access to all sessions</li>
+                    <li>Conference materials</li>
+                    <li>Networking events</li>
+                    <li>Coffee breaks and refreshments</li>
+                </ul>
+            </div>
+                <div class="cart-detail">
                 <p>Standard</p>
                 <h1>$399</h1>
                 <p>Per person</p>
@@ -106,11 +116,22 @@
                     <li>Coffee breaks and refreshments</li>
                 </ul>
             </div>
+                <div class="cart-detail">
+                <p>Standard</p>
+                <h1>$399</h1>
+                <p>Per person</p>
+                <hr class="cart-hr">
+
+                <ul class="cart-content">
+                    <li>Access to all sessions</li>
+                    <li>Conference materials</li>
+                    <li>Networking events</li>
+                    <li>Coffee breaks and refreshments</li>
+                </ul>
+            </div>
+        </div>
 
        </main>
-
-       <h2>Secure Your Spot</h2>
-       <p>jamsed</p>
       <!-- Cart End -->
     </body>
 </html>
