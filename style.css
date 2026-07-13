@@ -4,7 +4,6 @@
 }
 body {
     background-color: #f9f9f9;
-    /* max-width: 1200px; */
 }
 .navbar-parent{
     margin: 0 auto;
@@ -106,73 +105,157 @@ nav ul li a{
         grid-template-rows: repeat(2, auto);
         gap: 10px;
     }
-/* CSS Test */
-.speaker{
-    width:100%;
-    display:block;
-    border-radius:10px 10px 0 0;
-}
+    .speaker{
+        width:100%;
+        display:block;
+        border-radius:10px 10px 0 0;
+    }
 
-.speaker-name{
-    font-size: 20px;
-    font-weight: 700;
-    margin:10px 0;
-}
-.speaker-1,.speaker-2,.speaker-3,.speaker-4{
-    border:1px solid #eee;
-    border-radius:10px;
-    overflow:hidden;
-}
-.speaker-designation{
-    font-size: 14px;
-    font-weight: regular;
-    color: #575757;
-    display:block;
-    margin-bottom:20px;
-}
+    .speaker-name{
+        font-size: 20px;
+        font-weight: 700;
+        margin:10px 0;
+    }
+    .speaker-1,.speaker-2,.speaker-3,.speaker-4{
+        border:1px solid #eee;
+        border-radius:10px;
+        overflow:hidden;
+    }
+    .speaker-designation{
+        font-size: 14px;
+        font-weight: regular;
+        color: #575757;
+        display:block;
+        margin-bottom:20px;
+    }
 
-.speaker-title, .speaker-name, .speaker-designation{
-    padding:0 20px;
-}
-
-
-/* Cart style */
-.cart-parent{
-    margin-top: 50px;
-}
-.cart-dead-line{
-    text-align: center;
-    font-size: 14px;
-    color:#575757;
-}
-
-.cart-content{
-  list-style-type: disc;
-  margin-bottom: 20px;
-}
-.cart-container{
-    display:flex;
-    justify-content:space-between;
-    padding:20px 100px;
-    gap: 10px;
-}
+    .speaker-title, .speaker-name, .speaker-designation{
+        padding:0 20px;
+    }
 
 
-.cart-detail{
-    display: flex;
-    flex-direction: column;
-    min-width:280px;
-    max-width:350px;
-    padding:30px;
-    border: 2px solid rgb(245, 209, 209);
-    border-radius: 5px;
-    gap: 5px;
-}
+    /* Cart style */
+    .cart-parent{
+        margin-top: 50px;
+    }
+    .cart-dead-line{
+        text-align: center;
+        font-size: 14px;
+        color:#575757;
+    }
 
-.cart-detail p{
-    color: #575757;
-}
-.cart-hr{
-    width: 70%;
-     margin: 20px auto;
-}
+    .cart-content{
+    list-style-type: disc;
+    margin-bottom: 20px;
+    }
+    .cart-content li::marker{
+        color: blue
+    }
+    .cart-container{
+        display:flex;
+        justify-content:space-between;
+        padding:20px 100px;
+        gap: 10px;
+    }
+
+
+    .cart-detail{
+        display: flex;
+        flex-direction: column;
+        min-width:280px;
+        max-width:350px;
+        padding:30px;
+        border: 2px solid rgb(245, 209, 209);
+        border-radius: 5px;
+        gap: 5px;
+    }
+
+    .cart-detail p{
+        color: #575757;
+    }
+    .cart-hr{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .pro-p{
+        color: #93C5FD ;
+    }
+    .pro-btn{
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+    }
+    .cart-btn{
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+    }
+    .pro-cart{
+        background-color: #0b0a39;
+        color: white;
+    }
+
+    /* .container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+    } */
+    /* footer{
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-between;
+    } */
+
+    /* Ai generated start */
+    
+
+    /* .ai-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    }
+
+    input:focus {
+    border-color: #4f46e5;
+    }
+
+    button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4f46e5;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    button:hover {
+    background: #4338ca;
+    } */
+     form{
+        /* display: grid;
+        max-width: 1200px;
+        margin: o auto;
+        justify-content: center;
+        align-items: center; */
+        text-align: center;
+        
+     }
+
+
+
+    /* Ai generated End */
