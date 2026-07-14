@@ -7,8 +7,9 @@ body {
 }
 .navbar-parent{
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #f9f9f9;
     padding: 20px;
+    max-width: 1200px;
 }
 nav{
     display: flex;
@@ -37,9 +38,11 @@ nav ul li a{
     height: 786px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    /* position: relative; */
 }
 
 
@@ -50,12 +53,14 @@ nav ul li a{
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+    border: none;
 }
 .common-btn{
     background-color: #2563EB;
     color: white;
     padding:  20px;
     border-radius: 10px;
+    border: none;
     cursor: pointer;
 }
 
@@ -80,6 +85,7 @@ nav ul li a{
 
 .hero{
     text-align: center;
+    margin-top: 20px;
 }
 
 .hero-register-btn{
@@ -136,7 +142,8 @@ nav ul li a{
 
     /* Cart style */
     .cart-parent{
-        margin-top: 50px;
+        margin-top: 50px; 
+        margin-bottom: 50px;
     }
     .cart-dead-line{
         text-align: center;
@@ -170,7 +177,7 @@ nav ul li a{
         gap: 5px;
     }
 
-    .cart-detail p{
+    .cart-p{
         color: #575757;
     }
     .cart-hr{
@@ -178,7 +185,7 @@ nav ul li a{
         margin: 20px auto;
     }
     .pro-p{
-        color: #93C5FD ;
+        color: #ffffff ;
     }
     .pro-btn{
         font-size: 16px;
@@ -195,67 +202,77 @@ nav ul li a{
         color: white;
     }
 
-    /* .container{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1200px;
-    } */
-    /* footer{
-        display: flex;
-        max-width: 1200px;
-        justify-content: space-between;
-    } */
 
-    /* Ai generated start */
-    
 
-    /* .ai-container {
-    width: 100%;
-    max-width: 400px;
-    background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+.login-form{
+    margin: 0 auto;
+    max-width: 1200px;
+    width:320px;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.login-form h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.login-form input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    box-sizing:border-box;
+    border-radius:5px;
+}
+
+.login-form button{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+
+    @keyframes scroll{
+
+    from{
+        transform:translateX(0);
     }
 
-    input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    outline: none;
+    to{
+        transform:translateX(-50%);
     }
 
-    input:focus {
-    border-color: #4f46e5;
+}
+
+    .logo-section{
+    text-align:center;
+    margin-top: 50px;
+    }
+    .logo-p{
+        color:cadetblue;
     }
 
-    button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    background: #4f46e5;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
+    .logo-slider{
+    overflow:hidden;
+    width:100%;
+    margin-top:40px;
     }
 
-    button:hover {
-    background: #4338ca;
-    } */
-     form{
-        /* display: grid;
-        max-width: 1200px;
-        margin: o auto;
-        justify-content: center;
-        align-items: center; */
-        text-align: center;
-        
-     }
+    .logo-track{
+    display:flex;
+    gap:80px;
+    width:max-content;
+    animation: scroll 20s linear infinite;
+        }
 
-
-
-    /* Ai generated End */
+    .logo-track img{
+    height:40px;
+    }
+    /* Ai generated Code End  */
