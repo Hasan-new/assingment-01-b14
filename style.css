@@ -208,7 +208,7 @@ nav ul li a{
         color: white;
     }
 
-
+    
 
     .login-form{
         margin: 0 auto;
@@ -285,20 +285,8 @@ nav ul li a{
     .logo-track img{
         height:40px;
     }
-    /* Ai generated Code End  */
-    footer{
-        max-width:1200px;
-        margin:40px auto;
-        display:flex;
-        justify-content:space-between;
-        gap:30px;
-        padding:20px;
-    }  
 
-
-
-
-    /* Gallery Section */
+        /* Gallery Section */
 .gallery {
     max-width: 1200px;
     margin: 100px auto;
@@ -348,3 +336,21 @@ nav ul li a{
 .gallery-item:hover img {
     transform: scale(1.1);
 }
+
+
+    /* Ai generated Code End  */
+
+
+
+    footer{
+        max-width:1200px;
+        margin:40px auto;
+        display:flex;
+        justify-content:space-between;
+        gap:30px;
+        padding:20px;
+    }  
+
+
+
+
